@@ -133,3 +133,16 @@ nav a:hover{
     text-decoration: none;
     font-size: 14px;
 }
+
+.banner_options_opening{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #3e60a8;
+    padding: 15px 0px;
+    font-size: 14px;
+}
+
+.banner_options_title3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
