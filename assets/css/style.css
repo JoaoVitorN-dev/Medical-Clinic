@@ -1,3 +1,7 @@
+*{
+    font-family: Arial;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -61,4 +65,71 @@ nav a:hover{
     background-position: center;
     background-size: cover;
     height: 660px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.container_headline{
+    flex:1;
+    width: 350px;
+}
+
+.container_headline h1{
+    color: #eeffff;
+    font-size: 70px;
+    margin-top: 75px;
+    text-shadow: 0px 1px #000;
+    margin-bottom: 30px;
+}
+
+.container h2{
+    margin-top: 2px;
+    color: #eeffff;
+    font-size: 25px;
+    text-shadow: 0px 1px #000;
+}
+
+.container_options{
+    height: 210px;
+    display: flex;
+}
+
+.banner1,
+.banner2,
+.banner3{
+    flex:1;
+    color: #FFF;
+    padding: 15px;
+}
+
+.banner1{
+    background-color: #39aae1;
+}
+
+.banner2{
+    background-color: #0079c7;
+}
+
+.banner3{
+    background-color: #2b4c99;
+}
+
+.banner_options_title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner_options_description{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.container_options a{
+    color: #FFF;
+    border: 1px solid #FFF;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
 }
