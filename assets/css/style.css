@@ -229,3 +229,102 @@ article .news_resume{
     line-height: 20px;
     margin-bottom: 30px;
 }
+
+footer{
+    background-color: #1b1b1b;
+    justify-content: center;
+    display: flex;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.displayBlock{
+    display: block;
+}
+ .footer_menu{
+    display: flex;
+    flex: 1;
+}
+
+.fm_1, .fm_2, .fm_3{
+    flex:1;
+    padding: 20px;
+}
+
+.fm_1{
+    background-color: #30a0dd;
+}
+
+.fm_2{
+    background-color: #026ec0;
+}
+
+.fm_3{
+    background-color: #26418d;
+}
+
+footer .banner_options_title{
+    color: #FFFF
+}
+
+footer .banner_options_description{
+    color: #FFFF;
+}
+
+.footer_area{
+    display: flex;
+    flex:1;
+}
+
+.footer_area_item{
+    flex: 1;
+    padding-right: 25px;
+}
+
+.footer_area_item .widget_title_text{
+    color: #FFFF
+}
+
+.footer_area_item .widget_body{
+    color: #FFF;
+}
+
+footer .footer_resume{
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+footer .footer_location_title{
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+footer .medicenter_address{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .location .contact{
+    flex: 1;
+}
+
+footer .location,.city,.country, .number_phone{
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+footer .email_adress{
+    font-size: 14px;
+}
+
+.footer_copyrights{
+    color: #5c5c5c;
+    border-top: 2px solid #2c2c2c;
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 12px;
+}
