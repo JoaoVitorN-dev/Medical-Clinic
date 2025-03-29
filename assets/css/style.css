@@ -236,10 +236,6 @@ footer{
     display: flex;
 }
 
-footer a{
-    text-decoration: none;
-}
-
 .displayBlock{
     display: block;
 }
@@ -250,7 +246,6 @@ footer a{
 
 .fm_1, .fm_2, .fm_3{
     flex:1;
-    padding: 20px;
 }
 
 .fm_1{
@@ -263,6 +258,12 @@ footer a{
 
 .fm_3{
     background-color: #26418d;
+}
+
+.footer_menu a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
 }
 
 footer .banner_options_title{
@@ -386,4 +387,11 @@ footer .days_ago{
     margin-top: 30px;
     line-height: 40px;
     font-size: 12px;
+}
+.footer_copyrights a{
+    text-decoration: none;
+}
+
+.footer_copyrights span{
+    color: #FFFFFF;
 }
