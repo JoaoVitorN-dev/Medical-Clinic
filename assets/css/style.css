@@ -321,6 +321,65 @@ footer .email_adress{
     font-size: 14px;
 }
 
+footer .social_icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+footer .social_icons img{
+    height: 28px;
+    width: 28px;
+}
+
+.box_footer_description {
+    display: flex;
+    gap: 8px;
+}
+
+footer .arrow {
+    align-items: flex-start;
+    font-size: 14px;
+}
+
+footer .banner_footer_description{
+    display: flex;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .years_ago{
+    margin-top: 4px;
+    font-size: 12px;
+    margin-left: 20px;
+    color: #30a0dd;
+    margin-bottom: 30px;
+}
+
+footer .banner_footer_description_x{
+    display: flex;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5c5c5c;
+}
+
+footer .banner_footer_description_x p {
+    margin: 0;
+}
+
+footer .banner_footer_description_x a{
+    text-decoration: underline;
+    color: #FFF;
+}
+
+footer .days_ago{
+    margin-top: 6px;
+    font-size: 12px;
+    margin-left: 20px;
+    color: #30a0dd;
+    margin-bottom: 30px;
+}
+
 .footer_copyrights{
     color: #5c5c5c;
     border-top: 2px solid #2c2c2c;
