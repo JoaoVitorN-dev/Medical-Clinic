@@ -388,10 +388,93 @@ footer .days_ago{
     line-height: 40px;
     font-size: 12px;
 }
+
 .footer_copyrights a{
     text-decoration: none;
 }
 
 .footer_copyrights span{
     color: #FFFFFF;
+}
+
+.mobile_menu{
+    height: 40px;
+    width: 40px;
+    display: none;
+    margin-top: 40px;
+    margin-bottom: 40px;;
+}
+
+.line_mm{
+    background-color: #39aae1;
+    height: 3px;
+}
+
+@media(max-width:600px){
+
+    .container_headline h1,
+    .container_headline h2{
+        padding: 15px;
+    }
+
+    .container_headline h1{
+        font-size: 55px;
+    }
+
+    .container_headline h2{
+        font-size: 20px;
+    }
+
+    .container_options{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    #geral section, #geral aside{
+        padding:  25px;
+    }
+
+    #geral section{
+        margin-top: 88px;
+    }
+
+    .footer_menu{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer_area{
+        flex-direction: column;
+        padding-left: 25px;
+    }
+
+    .footer_copyrights{
+        padding-left: 25px;
+    }
+
+    header .container{
+        flex-direction: row;
+        
+    }
+
+    header{
+        height: auto;
+        padding: 0px 20px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+
+
+    .mobile_menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
