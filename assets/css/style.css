@@ -469,6 +469,10 @@ footer .days_ago{
     nav ul{
         flex-direction: column;
         display: none;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        background-color: #FFFFFF;
     }
 
 
